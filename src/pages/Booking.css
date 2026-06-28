@@ -1,0 +1,122 @@
+.booking-page {
+  background: #F0F7FF;
+  min-height: 85vh;
+  padding: 60px 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+}
+
+.booking-container {
+  background: #fff;
+  width: 100%;
+  max-width: 650px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(10, 37, 64, 0.05);
+  padding: 40px;
+}
+
+.booking-header {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.booking-header h2 {
+  color: #0A2540;
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.booking-header p {
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.modern-booking-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  font-weight: 700;
+  font-size: 14px;
+  color: #0A2540;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.form-group label i {
+  color: #1E88E5;
+  font-size: 16px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 14px;
+  border: 1px solid #e2e8f0;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #fff;
+  color: #334155;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  border-color: #1E88E5;
+  box-shadow: 0 0 0 3px rgba(30, 136, 229, 0.1);
+}
+
+.btn-whatsapp-submit {
+  background: #25D366;
+  color: #fff;
+  border: none;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  box-shadow: 0 4px 16px rgba(37, 211, 102, 0.3);
+  transition: all 0.25s;
+  margin-top: 10px;
+}
+
+.btn-whatsapp-submit:hover {
+  transform: translateY(-2px);
+  background: #20ba5a;
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
+}
+
+@media (max-width: 500px) {
+  .booking-container {
+    padding: 24px 16px;
+  }
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+  .booking-header h2 {
+    font-size: 22px;
+  }
+}
