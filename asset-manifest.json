@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/dr-mohamed/static/css/main.afb5c27a.css",
+    "main.js": "/dr-mohamed/static/js/main.cd0eb58e.js",
+    "index.html": "/dr-mohamed/index.html",
+    "main.afb5c27a.css.map": "/dr-mohamed/static/css/main.afb5c27a.css.map",
+    "main.cd0eb58e.js.map": "/dr-mohamed/static/js/main.cd0eb58e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.afb5c27a.css",
+    "static/js/main.cd0eb58e.js"
+  ]
+}
