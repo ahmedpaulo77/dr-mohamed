@@ -1,11 +1,13 @@
 {
   "files": {
     "main.css": "/dr-mohamed/static/css/main.afb5c27a.css",
-    "main.js": "/dr-mohamed/static/js/main.4b3320f1.js",
+    "main.js": "/dr-mohamed/static/js/main.3e3a0e7f.js",
     "static/media/64.jpg": "/dr-mohamed/static/media/64.23ceb1e5f0654c854a0c.jpg",
     "static/media/66.jpg": "/dr-mohamed/static/media/66.679d1a394435925f34f5.jpg",
     "static/media/61.jpg": "/dr-mohamed/static/media/61.36a43e66a9b42bd7de34.jpg",
     "static/media/65.jpg": "/dr-mohamed/static/media/65.960bdecb8c6874c0fe96.jpg",
+    "static/media/13.jpg": "/dr-mohamed/static/media/13.1553470c9c593f8099df.jpg",
+    "static/media/1.jpg": "/dr-mohamed/static/media/1.2549c52ca6f1869888cf.jpg",
     "static/media/67.jpg": "/dr-mohamed/static/media/67.f96e2c31596057bd07ff.jpg",
     "static/media/doc.jpg": "/dr-mohamed/static/media/doc.140e23819068d68ba673.jpg",
     "static/media/68.jpg": "/dr-mohamed/static/media/68.f5ddfa63d1eadf6516e9.jpg",
@@ -13,10 +15,10 @@
     "static/media/63.jpg": "/dr-mohamed/static/media/63.3382b62e0f369974db9a.jpg",
     "index.html": "/dr-mohamed/index.html",
     "main.afb5c27a.css.map": "/dr-mohamed/static/css/main.afb5c27a.css.map",
-    "main.4b3320f1.js.map": "/dr-mohamed/static/js/main.4b3320f1.js.map"
+    "main.3e3a0e7f.js.map": "/dr-mohamed/static/js/main.3e3a0e7f.js.map"
   },
   "entrypoints": [
     "static/css/main.afb5c27a.css",
-    "static/js/main.4b3320f1.js"
+    "static/js/main.3e3a0e7f.js"
   ]
 }
