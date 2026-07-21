@@ -2,7 +2,7 @@ export const services = [
   {
     id: 1,
     title: 'عمليات المياه البيضاء',
-    img: '/images/61.jpg',
+    img: require('../images/61.jpg'),
     color: '#1E88E5',
     bg: '#E3F2FD',
     whatsapp: '%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B9%D9%85%D9%84%D9%8A%D8%A7%D8%AA%20%D8%A7%D9%84%D9%85%D9%8A%D8%A7%D9%87%20%D8%A7%D9%84%D8%A8%D9%8A%D8%B6%D8%A7%D8%A1',
@@ -12,7 +12,7 @@ export const services = [
   {
     id: 2,
     title: 'زراعة العدسات لتصحيح النظر',
-    img: '/images/67.jpg',
+    img: require('../images/67.jpg'),
     color: '#0288D1',
     bg: '#E1F5FE',
     whatsapp: '%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9%20%D8%A7%D9%84%D8%B9%D8%AF%D8%B3%D8%A7%D8%AA',
@@ -22,7 +22,7 @@ export const services = [
   {
     id: 3,
     title: 'زراعة القرنية',
-    img: '/images/63.jpg',
+    img: require('../images/63.jpg'),
     color: '#7B1FA2',
     bg: '#F3E5F5',
     whatsapp: '%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B2%D8%B1%D8%A7%D8%B9%D8%A9%20%D8%A7%D9%84%D9%82%D8%B1%D9%86%D9%8A%D8%A9',
@@ -32,7 +32,7 @@ export const services = [
   {
     id: 4,
     title: 'أمراض الشبكية',
-    img: '/images/68.jpg',
+    img: require('../images/68.jpg'),
     color: '#C62828',
     bg: '#FFEBEE',
     whatsapp: '%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%A3%D9%85%D8%B1%D8%A7%D8%B6%20%D8%A7%D9%84%D8%B4%D8%A8%D9%83%D9%8A%D8%A9',
@@ -42,7 +42,7 @@ export const services = [
   {
     id: 5,
     title: 'الفحص والكشف الدوري',
-    img: '/images/66.jpg',
+    img: require('../images/66.jpg'),
     color: '#2E7D32',
     bg: '#E8F5E9',
     whatsapp: '%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AD%D8%AC%D8%B2%20%D9%85%D9%88%D8%B9%D8%AF%20%D9%81%D8%AD%D8%B5%20%D8%AF%D9%88%D8%B1%D9%8A',
@@ -52,7 +52,7 @@ export const services = [
   {
     id: 6,
     title: 'علاج الحول وأمراض عيون الأطفال',
-    img: '/images/65.jpg',
+    img: require('../images/65.jpg'),
     color: '#F57C00',
     bg: '#FFF3E0',
     whatsapp: '%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B9%D9%84%D8%A7%D8%AC%20%D8%A7%D9%84%D8%AD%D9%88%D9%84',
@@ -62,7 +62,7 @@ export const services = [
   {
     id: 7,
     title: 'عمليات تصحيح النظر (الليزك)',
-    img: '/images/64.jpg',
+    img: require('../images/64.jpg'),
     color: '#00838F',
     bg: '#E0F7FA',
     whatsapp: '%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%B9%D9%85%D9%84%D9%8A%D8%A9%20%D8%A7%D9%84%D9%84%D9%8A%D8%B2%D9%83',
@@ -72,10 +72,10 @@ export const services = [
   {
     id: 8,
     title: 'حقن العين لعلاج الارتشاح',
-    img: '/images/69.jpg',
+    img: require('../images/69.jpg'),
     color: '#AD1457',
     bg: '#FCE4EC',
-    whatsapp: '%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AD%D9%82%D9%86%20%D8%A7%D9%84%D8%B9%D9%8A%D9%86',
+    whatsapp: '%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%81%D8%B3%D8%A7%D8%B1%20%D8%B9%D9%86%20%D8%AD%D9%84%D9%86%20%D8%A7%D9%84%D8%B9%D9%8A%D9%86',
     description: 'علاج الارتشاح البقعي وأمراض الشبكية بالحقن داخل العين.',
     details: 'حقن مضادات VEGF داخل العين هي علاج فعال لارتشاح الشبكية الناتج عن السكر أو التنكس البقعي. تُجرى في عيادة تحت تخدير موضعي وتستغرق دقائق. تحتاج لجلسات متعددة حسب الحالة لوقف تدهور البصر والحفاظ عليه.',
   },

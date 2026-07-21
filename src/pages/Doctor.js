@@ -1,4 +1,5 @@
 import React from 'react';
+import docImg from '../images/doc.jpg'; // استيراد صورة الدكتور من مكانها الجديد في الـ src
 import './Doctor.css';
 
 function Doctor() {
@@ -12,7 +13,8 @@ function Doctor() {
       <div className="container">
         <div className="doctor-grid">
           <div className="doctor-image">
-            <img src={process.env.PUBLIC_URL + '/images/doc.jpg'} alt="د. محمد عمر مصطفى" />
+            {/* استخدام المتغير الجديد هنا */}
+            <img src={docImg} alt="د. محمد عمر مصطفى" />
           </div>
           <div className="doctor-info">
             <h2>د. محمد عمر مصطفى</h2>

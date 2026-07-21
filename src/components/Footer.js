@@ -1,4 +1,5 @@
 import React from 'react';
+import logoImg from '../images/2.jpg'; // استيراد اللوجو من مكانه الجديد في الـ src
 import './Footer.css';
 
 function Footer() {
@@ -7,7 +8,8 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-brand">
           <div className="brand-info">
-            <img src={process.env.PUBLIC_URL + '/images/2.jpg'} alt="لوجو" />
+            {/* استخدام المتغير الجديد للوجو هنا بدلاً من PUBLIC_URL */}
+            <img src={logoImg} alt="لوجو" />
             <div>
               <span className="footer-name">د. محمد عمر مصطفى</span>
               <p>استشاري طب وجراحة العيون</p>
@@ -48,7 +50,7 @@ function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>© 2025 د. محمد عمر مصطفى. جميع الحقوق محفوظة.</p>
+        <p>© 2026 د. محمد عمر مصطفى. جميع الحقوق محفوظة.</p>
       </div>
     </footer>
   );

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import heroImg from '../images/1.jpg'; // استيراد الصورة الثابتة من مكانها الجديد في الـ src
 import './Home.css';
 
 function Home() {
@@ -7,7 +8,8 @@ function Home() {
     <main>
       <section className="hero">
         <div className="hero-overlay"></div>
-        <img src={process.env.PUBLIC_URL + '/images/1.jpg'} alt="د. محمد عمر مصطفى" className="hero-bg" />
+        {/* استخدام المتغير الجديد هنا كخلفية */}
+        <img src={heroImg} alt="د. محمد عمر مصطفى" className="hero-bg" />
         
         <div className="hero-content">
           {/* النصوص دي هتظهر في الموبايل بس عشان الصورة بتصغر، وتختفي في الكمبيوتر */}

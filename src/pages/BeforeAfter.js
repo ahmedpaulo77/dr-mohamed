@@ -6,19 +6,19 @@ const cases = [
     id: 1,
     title: 'عملية الليزك',
     description: 'نتائج مذهلة لتصحيح النظر بالليزر',
-    img: process.env.PUBLIC_URL + '/images/11.jpg',
+    img: require('../images/11.jpg'), // استخدام require الدينياميكي هنا
   },
   {
     id: 2,
     title: 'عملية المياه البيضاء',
     description: 'استعادة الرؤية الواضحة بعد إزالة المياه البيضاء',
-    img: process.env.PUBLIC_URL + '/images/12.jpg',
+    img: require('../images/12.jpg'), // استخدام require الدينياميكي هنا
   },
   {
     id: 3,
     title: 'زراعة القرنية',
     description: 'نتائج ناجحة لعمليات زراعة القرنية',
-    img: process.env.PUBLIC_URL + '/images/13.jpg',
+    img: require('../images/13.jpg'), // استخدام require الدينياميكي هنا
   },
 ];
 

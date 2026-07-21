@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import logoImg from '../images/2.jpg'; // استيراد اللوجو من مكانه الجديد في الـ src
 import './Navbar.css';
 
 function Navbar() {
@@ -9,7 +10,8 @@ function Navbar() {
     <nav className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo">
-          <img src={process.env.PUBLIC_URL + '/images/2.jpg'} alt="لوجو" />
+          {/* استخدام المتغير الجديد للوجو هنا */}
+          <img src={logoImg} alt="لوجو" />
           <div className="logo-text">
             <span className="logo-name">د. محمد عمر مصطفى</span>
             <span className="logo-sub">استشاري طب وجراحة العيون</span>
